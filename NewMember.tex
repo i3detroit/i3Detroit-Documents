@@ -6,6 +6,7 @@
 \usepackage{graphicx}
 \usepackage{pdfpages}
 \usepackage{longtable}
+\usepackage{mdframed}
 \usepackage[colorlinks=true,urlcolor=blue]{hyperref}
 \hypersetup{ 
       pdfauthor   = {Andrew G. Meyer}, 
@@ -69,32 +70,32 @@ As a new member:
 \small
     \begin{Form}
         \begin{enumerate}
-            \item Every member may host \TextField[name=11,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} in the space.
-            \item Guests must complete a \TextField[name=21,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} on their first visit.
-            \item Guests must sign in on the \TextField[name=31,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} every time they visit.
-            \item Members should check each guest's name against the list of \TextField[name=41,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} \TextField[name=42,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}, and follow the posted procedure.
-            \item Members are responsible for making sure their guests follow the \TextField[name=51,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} and \TextField[name=52,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}.
-            \item Bylaws and standing rules are located \TextField[name=61,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} \TextField[name=62,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} \TextField[name=63,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}.
-            \item Any member who wishes to, may invite guests by throwing the \TextField[name=71,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}, located \TextField[name=72,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}.
-            \item If you're the second-to-last person in the space, check that the remaining individuals are \TextField[name=81,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} (by asking to see their keyfob).
-            \item When leaving, each member should \TextField[name=91,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} \TextField[name=92,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} after themselves and let the remaining members know they're leaving. (Also, figure out whether to leave the twitterbot on.)
-            \item If you're the last one out, follow the \TextField[name=A1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} located \TextField[name=A2,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}.
-            \item Most tools in the space are owned by \TextField[name=B1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}.
-            \item In case of tool damage, or simply questions, post to \TextField[name=C1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}.
-            \item Information about tools may be found, or should be put, \TextField[name=D1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} \TextField[name=D2,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} \TextField[name=D3,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}.
-            \item Trash cans should be emptied by \TextField[name=E1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}.
-            \item New trash bags are kept in the \TextField[name=F1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} \TextField[name=F2,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}.
-            \item We recycle through SOCRRA. Recycling guidelines are on \TextField[name=G1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}.
-            \item The recycling bin goes out \TextField[name=H1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} night.
-            \item Sweeping, vacuuming, and mopping should be done by \TextField[name=I1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}.
-            \item Personal items brought into the space should be \TextField[name=J1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}.
-            \item Large objects/projects should have a \TextField[name=K1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} completed for them.
-            \item Member storage is restricted to one \TextField[name=L1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} per dues-paying member.
-            \item Items in member storage must be \TextField[name=M1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} with name and contact info.
-            \item Items in member storage must not protrude into the aisle, lest the \TextField[name=N1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} hit them.
-            \item Items in the space are available for everyone to use, unless they're in \TextField[name=O1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} \TextField[name=O2,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} or have a completed \TextField[name=O3,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} \TextField[name=O4,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} attached.
-            \item When cleaning up, if you don't know where something goes, contact the \TextField[name=P1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} \TextField[name=P2,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} or post to \TextField[name=P3,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}}.
-            \item The front hallway is a \TextField[name=Q1,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} \TextField[name=Q2,width=2.5cm,bordercolor=black,charsize=10pt]{\mbox{}} and must always be kept clear.
+            \item Every member may host \TextField[name=11,width=2.5cm,bordercolor=black]{\mbox{}} in the space.
+            \item Guests must complete a \TextField[name=21,width=2.5cm,bordercolor=black]{\mbox{}} on their first visit.
+            \item Guests must sign in on the \TextField[name=31,width=2.5cm,bordercolor=black]{\mbox{}} every time they visit.
+            \item Members should check each guest's name against the list of \TextField[name=41,width=2.5cm,bordercolor=black]{\mbox{}} \TextField[name=42,width=2.5cm,bordercolor=black]{\mbox{}}, and follow the posted procedure.
+            \item Members are responsible for making sure their guests follow the \TextField[name=51,width=2.5cm,bordercolor=black]{\mbox{}} and \TextField[name=52,width=2.5cm,bordercolor=black]{\mbox{}}.
+            \item Bylaws and standing rules are located \TextField[name=61,width=2.5cm,bordercolor=black]{\mbox{}} \TextField[name=62,width=2.5cm,bordercolor=black]{\mbox{}} \TextField[name=63,width=2.5cm,bordercolor=black]{\mbox{}}.
+            \item Any member who wishes to, may invite guests by throwing the \TextField[name=71,width=2.5cm,bordercolor=black]{\mbox{}}, located \TextField[name=72,width=2.5cm,bordercolor=black]{\mbox{}}.
+            \item If you're the second-to-last person in the space, check that the remaining individuals are \TextField[name=81,width=2.5cm,bordercolor=black]{\mbox{}} (by asking to see their keyfob).
+            \item When leaving, each member should \TextField[name=91,width=2.5cm,bordercolor=black]{\mbox{}} \TextField[name=92,width=2.5cm,bordercolor=black]{\mbox{}} after themselves and let the remaining members know they're leaving. (Also, figure out whether to leave the twitterbot on.)
+            \item If you're the last one out, follow the \TextField[name=A1,width=2.5cm,bordercolor=black]{\mbox{}} located \TextField[name=A2,width=2.5cm,bordercolor=black]{\mbox{}}.
+            \item Most tools in the space are owned by \TextField[name=B1,width=2.5cm,bordercolor=black]{\mbox{}}.
+            \item In case of tool damage, or simply questions, post to \TextField[name=C1,width=2.5cm,bordercolor=black]{\mbox{}}.
+            \item Information about tools may be found, or should be put, \TextField[name=D1,width=2.5cm,bordercolor=black]{\mbox{}} \TextField[name=D2,width=2.5cm,bordercolor=black]{\mbox{}} \TextField[name=D3,width=2.5cm,bordercolor=black]{\mbox{}}.
+            \item Trash cans should be emptied by \TextField[name=E1,width=2.5cm,bordercolor=black]{\mbox{}}.
+            \item New trash bags are kept in the \TextField[name=F1,width=2.5cm,bordercolor=black]{\mbox{}} \TextField[name=F2,width=2.5cm,bordercolor=black]{\mbox{}}.
+            \item We recycle through SOCRRA. Recycling guidelines are on \TextField[name=G1,width=2.5cm,bordercolor=black]{\mbox{}}.
+            \item The recycling bin goes out \TextField[name=H1,width=2.5cm,bordercolor=black]{\mbox{}} night.
+            \item Sweeping, vacuuming, and mopping should be done by \TextField[name=I1,width=2.5cm,bordercolor=black]{\mbox{}}.
+            \item Personal items brought into the space should be \TextField[name=J1,width=2.5cm,bordercolor=black]{\mbox{}}.
+            \item Large objects/projects should have a \TextField[name=K1,width=2.5cm,bordercolor=black]{\mbox{}} completed for them.
+            \item Member storage is restricted to one \TextField[name=L1,width=2.5cm,bordercolor=black]{\mbox{}} per dues-paying member.
+            \item Items in member storage must be \TextField[name=M1,width=2.5cm,bordercolor=black]{\mbox{}} with name and contact info.
+            \item Items in member storage must not protrude into the aisle, lest the \TextField[name=N1,width=2.5cm,bordercolor=black]{\mbox{}} hit them.
+            \item Items in the space are available for everyone to use, unless they're in \TextField[name=O1,width=2.5cm,bordercolor=black]{\mbox{}} \TextField[name=O2,width=2.5cm,bordercolor=black]{\mbox{}} or have a completed \TextField[name=O3,width=2.5cm,bordercolor=black]{\mbox{}} \TextField[name=O4,width=2.5cm,bordercolor=black]{\mbox{}} attached.
+            \item When cleaning up, if you don't know where something goes, contact the \TextField[name=P1,width=2.5cm,bordercolor=black]{\mbox{}} \TextField[name=P2,width=2.5cm,bordercolor=black]{\mbox{}} or post to \TextField[name=P3,width=2.5cm,bordercolor=black]{\mbox{}}.
+            \item The front hallway is a \TextField[name=Q1,width=2.5cm,bordercolor=black]{\mbox{}} \TextField[name=Q2,width=2.5cm,bordercolor=black]{\mbox{}} and must always be kept clear.
         \end{enumerate}
     \end{Form}
 
@@ -102,18 +103,77 @@ As a new member:
 
     \begin{Form}
         \begin{itemize}
-            \item[] Mentor name: \TextField[name=mname,width=4cm,bordercolor=black,charsize=10pt]{\mbox{}} Phone: \TextField[name=mphone,width=2cm,bordercolor=black,charsize=10pt]{\mbox{}}
-            \item[] Mentor email: \TextField[name=memail,width=6cm,bordercolor=black,charsize=10pt]{\mbox{}}
-            \item[] First followup date: \TextField[name=fdate,width=2cm,bordercolor=black,charsize=10pt]{\mbox{}} Second followup date: \TextField[name=sdate,width=2cm,bordercolor=black,charsize=10pt]{\mbox{}}
-            \item[] New member name: \TextField[name=nname,width=4cm,bordercolor=black,charsize=10pt]{\mbox{}} Phone: \TextField[name=nphone,width=2cm,bordercolor=black,charsize=10pt]{\mbox{}}
-            \item[] New member email: \TextField[name=nemail,width=6cm,bordercolor=black,charsize=10pt]{\mbox{}}
+            \item[] Mentor name: \TextField[name=mname,width=4cm,bordercolor=black]{\mbox{}} Phone: \TextField[name=mphone,width=2cm,bordercolor=black]{\mbox{}}
+            \item[] Mentor email: \TextField[name=memail,width=6cm,bordercolor=black]{\mbox{}}
+            \item[] First followup date: \TextField[name=fdate,width=2cm,bordercolor=black]{\mbox{}} Second followup date: \TextField[name=sdate,width=2cm,bordercolor=black]{\mbox{}}
+            \item[] New member name: \TextField[name=nname,width=4cm,bordercolor=black]{\mbox{}} Phone: \TextField[name=nphone,width=2cm,bordercolor=black]{\mbox{}}
+            \item[] New member email: \TextField[name=nemail,width=6cm,bordercolor=black]{\mbox{}}
             \item[] \textbf{Mentor and new member: Add these dates to your calendar and touch base even if things are going well. Maybe take a picture of this section to remind yourself?}
         \end{itemize}
      \end{Form}
 
-\normalsize
 \newpage
+
+%%% logo here %%%
+\includegraphics[width=80mm]{Logo.pdf}
+
+\small
+
+\centering \textbf{New Member Registration Form}
+
 \raggedright
 
+\begin{Form}
+    \begin{itemize}
+        \item[] Name: \TextField[name=regname,width=8cm,bordercolor=black]{\mbox{}} Date: \TextField[name=regdate,width=3cm,bordercolor=black]{\mbox{}}
+        \item[] Address: \TextField[name=regadr,width=8cm,bordercolor=black]{\mbox{}}
+        \item[] City: \TextField[name=regcity,width=8cm,bordercolor=black]{\mbox{}} Zip: \TextField[name=regzip,width=3cm,bordercolor=black]{\mbox{}}
+        \item[] Phone: \TextField[name=regph,width=3cm,bordercolor=black]{\mbox{}} Email: \TextField[name=regemail,width=6cm,bordercolor=black]{\mbox{}}
+        \item[] Desired Username (optional, default is \texttt{jsmith} for Joe Smith): \TextField[name=reguser,width=4cm,bordercolor=black]{\mbox{}}
+        \item[] Emergency Contact: \TextField[name=regecname,width=7cm,bordercolor=black]{\mbox{}} Phone: \TextField[name=regecph,width=3cm,bordercolor=black]{\mbox{}}
+        \item[] Membership plan:
+            \begin{itemize}
+                \item[] \CheckBox[name=regfull,bordercolor=black,checkboxsymbol=X]{} Full Member (\$89.00/mo)
+                \item[] \CheckBox[name=regcraft,bordercolor=black,checkboxsymbol=X]{} Craft/Coder Member (\$39.00/mo)
+            \end{itemize}
+    \end{itemize}
+\end{Form}
+
+\tiny
+\begin{mdframed}
+    \textbf{i3Detroit Agreement \& Waiver Information}
+
+    By becoming a Member of i3Detroit, you are agreeing to follow and live by the i3Detroit By-Laws that are posted on our wiki. If you choose not to follow our By-laws, you will be asked to leave the community. You also agree to pay your membership dues by the first of each month. If dues are over 30 days past due you will be asked to turn in your key and you will forfeit your membership with i3Detroit. As a Member you are not allowed to make copies of your Key to the space and you agree not to loan or give your key to another individual. You are responsible to return your numbered Key back to i3Detroit if you desire to no longer be a Member.
+
+    As a Member of i3Detroit you are agreeing that in the event of being injured or harmed from tool usage, carelessness, or any other unforeseen reason you will not and cannot hold i3Detroit Incorporated or any other member responsible. You are agreeing to waive your legal rights or personal actions against i3Detroit or its Members. As a Member you have chosen to act as an individual and accept all responsibilities for any possible accidents, injury, or wrongful doing.
+    
+    \textit{i3Detroit has the right to modify or change this Agreement at any time!}
+
+\end{mdframed}
+
+\begin{Form}
+    \textbf{Member Signature: \TextField[name=regsig,width=8cm,bordercolor=black]{\mbox{}} Date: \TextField[name=regsigdate,width=3cm,bordercolor=black]{\mbox{}}}
+\end{Form}
+
+\small
+\begin{mdframed}
+    \begin{itemize}
+        \item[] \textbf{For Internal Use Only}
+        \item[] \TextField[name=offinitec,width=1cm,bordercolor=black]{Initial} Emergency contact info complete.
+        \item[] \TextField[name=offinitprodues,width=1cm,bordercolor=black]{Initial} Prorated initial dues. Start date: \TextField[name=offduesdate,width=2cm,bordercolor=black]{\mbox{}} Amount due: \TextField[name=offdues,width=2cm,bordercolor=black]{\mbox{}}
+        \item[] \TextField[name=offinitdues,width=1cm,bordercolor=black]{Initial} Initial dues paid in full. Check one: \CheckBox[name=offcash,bordercolor=black,checkboxsymbol=X]{Cash} \CheckBox[name=offcash,bordercolor=black,checkboxsymbol=X]{Check} \CheckBox[name=offamazon,bordercolor=black,checkboxsymbol=X]{Amazon}
+        \item[] \TextField[name=offinitkeydep,width=1cm,bordercolor=black]{Initial} Key deposit ( \$5 ) paid in full.
+        \item[] \TextField[name=offinitkey,width=1cm,bordercolor=black]{Initial} Key assigned. Serial: \TextField[name=offkeyser,width=4cm,bordercolor=black]{\mbox{}} Slot: \TextField[name=offkeyslot,width=2cm,bordercolor=black]{\mbox{}}
+        \item[] \TextField[name=offinitmail,width=1cm,bordercolor=black]{Initial} Added to public and members-only mailing list.
+        \item[] \TextField[name=offinittour,width=1cm,bordercolor=black]{Initial} Orientation walkthrough and keyholder worksheet completed.
+        \item[] \TextField[name=offinitwiki,width=1cm,bordercolor=black]{Initial} Wiki account created (\CheckBox[name=offwikiout,bordercolor=black,checkboxsymbol=X]{opted out})
+        \item[] \TextField[name=offinitcrm,width=1cm,bordercolor=black]{Initial} Added to CRM.
+        \item[] \TextField[name=offinitmentor,width=1cm,bordercolor=black]{Initial} Mentor assigned and mentor info emailed to new member.
+        \item[] \TextField[name=offinitpost,width=1cm,bordercolor=black]{Initial} Logged into mailing list, made first post.
+        \item[] \textbf{All above must be completed before leaving, please contact \href{mailto:board@i3detroit.com}{board@i3detroit.com} in case of problems.}
+        \item[] Certified by: \TextField[name=regsig,width=5cm,bordercolor=black]{\mbox{}} Date: \TextField[name=regsigdate,width=3cm,bordercolor=black]{\mbox{}}
+        \item[]  Print: \TextField[name=regsig,width=5cm,bordercolor=black]{\mbox{}}
+    \end{itemize}
+\end{mdframed}
 
 \end{document}
